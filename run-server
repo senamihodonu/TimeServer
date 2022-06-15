@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python3 time_server.py
