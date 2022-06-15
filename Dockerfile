@@ -12,11 +12,11 @@ RUN apt-get install -y git
 
 RUN apt-get install -y net-tools
 
-RUN (git clone https://github.com/senamihodonu/PythonProjects.git)
+RUN (git clone https://github.com/senamihodonu/TimeServer_Python.git)
 
 RUN /usr/sbin/ifconfig
 
-CMD ["python3", "./PythonProjects/timeserver/time_server.py"]
+CMD ["python3", "./TimeServer_Python/time_server.py"]
 
 
 
